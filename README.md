@@ -1,9 +1,9 @@
 # Enterprise B2B Supply Chain Logistics & Vendor Performance Dashboard
 
-An end-to-end data engineering and predictive analytics pipeline that transforms high-frequency commercial logistics records into an interactive, enterprise-grade business intelligence dashboard using Python Dash, Plotly, and scikit-learn.
+An end-to-end data engineering and predictive analytics pipeline that transforms real-world commercial wholesale logistics records (30,000+ transaction rows) into an interactive, enterprise-grade business intelligence dashboard using Python Dash, Plotly, and scikit-learn.
 
 ## 📊 Business Problem & Operational Impact
-Traditional retail analytics frameworks focus heavily on consumer touchpoints (B2C). This project addresses complex B2B Supply Chain constraints by analyzing how cargo move across distinct internal pipelines: **Retail Channels, Warehouses, and Internal Transfers**. 
+Traditional retail analytics frameworks look primarily at consumer touchpoints (B2C). This project shifts the focus to complex B2B Supply Chain constraints by analyzing how inventory moves across multiple commercial pipelines: **Retail Channels, Warehouses, and Internal Transfers**. 
 
 By evaluating volume velocities and transfer friction metrics, this infrastructure allows inventory operations teams to pinpoint logistically weak nodes, optimize warehouse distribution, and systematically tier the vendor profile ecosystem.
 
@@ -15,9 +15,9 @@ By evaluating volume velocities and transfer friction metrics, this infrastructu
 
 ## 📐 Advanced Architecture Breakdown
 
-### 1. Vectorized Schema Ingestion & Normalization
-* Handled high-volume transaction files, implementing defensive validation checks (`os.path.exists`) and dynamic type coercion via vectorized date parsing to convert period text fields into 64-bit continuous timeline coordinate tracks.
-* Mitigated potential upstream schema drift by integrating fallback conditional tests to discover target columns dynamically at runtime.
+### 1. High-Speed Schema Ingestion & Normalization
+* Handled an active commercial ledger, implementing defensive validation checks (`os.path.exists`) and dynamic type coercion via vectorized date parsing to convert period text fields into 64-bit continuous timeline coordinate tracks.
+* Mitigated potential upstream schema drift by integrating fallback conditional tests to discover target columns dynamically at runtime (e.g., handling variations between `Order_Date`, `Date`, and `MONTH-PERIOD`).
 
 ### 2. Transitioning from B2C RFM to B2B FVM Supplier Tiering
 * Refactored classical consumer customer analytics models into an operational **FVM Framework**:
