@@ -1,0 +1,10 @@
+KEY FINDINGS FROM EXPLORATORY DATA ANALYSIS
+================================================================================
+
+1. Category Alpha: 'WINE' is the dominant item category, generating 55.21% of total distributed volume.
+2. Vendor Ecosystem: Diverse portfolio suppliers make up 6.55% (19 of 290 vendors), anchoring wide product availability.
+3. Macro Timeline: The 'Winter' seasonal window represents peak operations, absorbing 40.91% of aggregate distribution units.
+4. Fulfillment Mix: Supply operations lean toward B2B Warehouse Fulfillment (Retail: 31.7% vs. Warehouse: 68.3%).
+5. Portfolio Velocity: The top 20% of active SKUs generate 66.37% of total operational throughput, explicitly confirming the Pareto Principle.
+
+Report Compiled: 2026-06-16 18:37:13
