@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# Data Pipelines (Keep code scripts, ignore heavy data files)
+data/raw/
+data/processed/*.csv
+*.csv
+*.png
+financial_viz/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
