@@ -1,0 +1,28 @@
+KPI_Metric,Calculated_Value
+Total_Units_Dispatched,177079.66875
+Total_Row_Entries,29996
+Retail_Channel_Total,56173.13875
+Warehouse_Channel_Total,120906.53
+Retail_Fulfillment_Share_Pct,31.72195834029083
+Warehouse_Fulfillment_Share_Pct,68.27804165970916
+Total_Unique_Suppliers,290
+Avg_Volume_Per_Supplier,610.6195474137932
+Avg_SKUs_Per_Supplier,54.389655172413796
+High_Diversity_Suppliers,145
+High_Diversity_Vendor_Rate,50.0
+Total_Active_SKUs,15666
+Total_Product_Categories,8
+Avg_Units_Per_SKU_Record,5.903442750700094
+Mean_Supplier_Lifetime_Value,278.09236097427475
+Global_Transfer_Friction_Ratio,0.5656912160811294
+High_Friction_Incidents,8216
+System_Friction_Rate_Pct,27.39031870916122
+Timeline_Start,2020-01-01 00:00:00
+Timeline_End,2020-09-01 00:00:00
+Observed_Months_Lifespan,9
+Avg_Monthly_Volume_Throughput,19675.518750000003
+Avg_Monthly_Row_Load,3332.8888888888887
+Low_Velocity___Long_Tail_Vendors_Count,277
+Low_Velocity___Long_Tail_Vendors_Percentage,95.51724137931035
+Omnichannel_Heavyweights_Count,13
+Omnichannel_Heavyweights_Percentage,4.482758620689655
